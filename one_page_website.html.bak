@@ -6,31 +6,67 @@
 	</head>
 		<body>
 	<main>
+
 	<style>
-	h1 {text-align:center;
+	h1, form { 
+		text-align: center;
+	}
+	h2 {
+		text-align: center; text-shadow: 2px 2px 5px red;
 	}
 	</style>
-	<h1>Mars is more than just mythology,<br>
+	<h1><font color="red">Mars</font> is more than just mythology,<br>
 		with mountains taller than Everest,<br>
 		canyons that stretch could stretch across the U.S.,<br>
 		<em>this planet is an explorers paradise!</em></h1>
-	
-	<details>
-		<summary>Olympus Mons</summary>
+		
+		<nav>
+	<p><a href="#Mons">Olympus Mons</a></p>
+	<p><a href="#Marineris">Valles Marineris</a></p>
+	<p><a href="#Moons">Phobos and Deimos</a></p>
+	<p><a href="#Video">NatGeo Video</a></p>
+	<p><a href="#Form">Contact Info</a></p>
+		</nav>
+		
+		<h2 id="Mons">Olympus Mons</h2>
 		<p>Olympus Mons is a shield volcano 624 km (374 mi) in diameter<br>
 		(approximately the same size as the state of Arizona), 25 km (16 mi) high,<br>
 		and is rimmed by a 6 km (4 mi) high scarp. A caldera 80 km (50 mi) wide is<br>
 		located at the summit of Olympus Mons. To compare, the largest volcano on Earth<br>
 		is Mauna Loa.</p>
 		<img src="./images/1200-603974-facts-about-olympus-mons.jpg" width="800" height="400">
-	</details>
 	
-	<details>
-		<summary>Valles Marineris</summary>
+	
+	
+		<h2 id="Marineris">Valles Marineris</h2>
 		<p>Valles Marineris, or Mariner Valley, is a vast canyon system that runs<br>
 		along the Martian equator just east of the Tharsis region. Valles Marineris<br>
 		is 4000 km (2500 mi) long and reaches depths of up to 7 km (4 mi)! <br>
 		For comparison, the Grand Canyon in Arizona is about 800 km (500 mi) long<br>
 		and 1.6 km (1 mi) deep.</p>
 		<img src="./images/561beb0710396e.img.jpg" width="800" height="400">
-	</details>
+	
+		<h2 id="Moons">Phobos and Deimos</h2>
+			<p>Mars' moons are among the smallest in the solar system.<br>
+			Phobos is a bit larger than Deimos, and orbits only 3,700 miles<br>
+			(6,000 kilometers) above the Martian surface. No known moon <br>
+			orbits closer to its planet. It whips around Mars three times a day, <br>
+			while the more distant Deimos takes 30 hours for each orbit.<br>
+			</p>
+		<img src="./images/Ten_things_you_did_not_know_about_Mars_10._Moons_pillars.jpg" width="800" height="400">
+	<p></p>
+	<iframe id="Video" width="800" height="400"
+	src="https://www.youtube.com/embed/D8pnmwOXhoY">
+	</iframe>
+	<p>	</p>
+				<h2>Enter your information for a chance to win a trip to Mars!</h2>
+		<form id="form" action="" method="get">
+			First name: <input type="text" name="First_Name"><br>
+			Last name: <input type="text" name="Last_Name"><br>
+			Email: <input type="Email" name="Email"><br>
+			Phone Number: <input type="number" name="Phone"><br>
+			<input type ="submit" value="submit"
+		</form>
+	<footer>
+		<h4>Ericks' Explorers Foundation &copy;</h4>
+	</footer>
