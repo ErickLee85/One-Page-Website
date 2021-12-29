@@ -60,7 +60,7 @@
 	</iframe>
 	<p>	</p>
 				<h2>Enter your information for a chance to win a trip to Mars!</h2>
-		<form id="form" action="" method="get">
+		<form id="Form" action="" method="get">
 			First name: <input type="text" name="First_Name"><br>
 			Last name: <input type="text" name="Last_Name"><br>
 			Email: <input type="Email" name="Email"><br>
