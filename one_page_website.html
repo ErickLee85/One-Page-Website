@@ -3,12 +3,13 @@
 	<head>
 		<title>Explore the red planet | Mars</title>
 		<meta charset= "utf-8">
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
 	</head>
 		<body>
 	<main>
 
 	<style>
-	h1, form { 
+	h1, form, nav { 
 		text-align: center;
 	}
 	h2 {
@@ -21,11 +22,11 @@
 		<em>this planet is an explorers paradise!</em></h1>
 		
 		<nav>
-	<p><a href="#Mons">Olympus Mons</a></p>
-	<p><a href="#Marineris">Valles Marineris</a></p>
-	<p><a href="#Moons">Phobos and Deimos</a></p>
-	<p><a href="#Video">NatGeo Video</a></p>
-	<p><a href="#Form">Contact Info</a></p>
+	<a href="#Mons">Olympus Mons |</a>
+	<a href="#Marineris">Valles Marineris |</a>
+	<a href="#Moons">Phobos and Deimos |</a>
+	<a href="#Video">NatGeo Video |</a>
+	<a href="#Form">Contact Info</a>
 		</nav>
 		
 		<h2 id="Mons">Olympus Mons</h2>
@@ -60,13 +61,21 @@
 	</iframe>
 	<p>	</p>
 				<h2>Enter your information for a chance to win a trip to Mars!</h2>
-		<form id="Form" action="" method="get">
-			First name: <input type="text" name="First_Name"><br>
-			Last name: <input type="text" name="Last_Name"><br>
-			Email: <input type="Email" name="Email"><br>
-			Phone Number: <input type="number" name="Phone"><br>
-			<input type ="submit" value="submit"
-		</form>
+				<div class="form-rsvp">
+					<form action="" method="post">
+						<input class="rsvp" type="text" value="" placeholder="First Name">
+						<input class="rsvp" type="text" value="" placeholder="Last Name">
+						<input class="rsvp" type="text" value="" placeholder="Email Address">
+						<input class="rsvp" type="text" value="" placeholder="Phone Number">
+						<div class="form-spacer">
+							<label class="terms">Terms and Conditions</label>
+						</div>
+						<div class="submit">
+							<input type="submit" value="submit">
+						</div>
+					</form>
+
+				</div>
 	<footer>
 		<h4>Ericks' Explorers Foundation &copy;</h4>
 	</footer>
