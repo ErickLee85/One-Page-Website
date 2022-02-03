@@ -4,12 +4,15 @@
 		<title>Explore the red planet | Mars</title>
 		<meta charset= "utf-8">
 		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
 	</head>
-		<body>
 	<main>
+		
+		<body>
+	
 
 	<style>
-	h1, form, nav { 
+	h1, form, nav, p{ 
 		text-align: center;
 	}
 	h2 {
@@ -28,7 +31,16 @@
 	<a href="#Video">NatGeo Video |</a>
 	<a href="#Form">Contact Info</a>
 		</nav>
-		
+			<div class="grids">
+				<img src="Images/1200-603974-facts-about-olympus-mons.jpg">
+				<img src="Images/RigelWitchHead_Mtanous_960.jpg">
+				<img src="Images/561beb0710396e.img.jpg">
+				<img src="Images/FornaxC1_FB1024.jpg">
+				<img src="Images/Ten_things_you_did_not_know_about_Mars_10._Moons_pillars.jpg">
+				<img src="Images/IMG_4039copia2_1024.jpg">
+			</div>
+
+		<div class ="facts">
 		<h2 id="Mons">Olympus Mons</h2>
 		<p>Olympus Mons is a shield volcano 624 km (374 mi) in diameter<br>
 		(approximately the same size as the state of Arizona), 25 km (16 mi) high,<br>
@@ -56,28 +68,29 @@
 			</p>
 		<img src="./images/Ten_things_you_did_not_know_about_Mars_10._Moons_pillars.jpg" width="800" height="400">
 	<p></p>
-	<iframe id="Video" width="800" height="400"
+	<iframe id="Video" width="900" height="400"
 	src="https://www.youtube.com/embed/D8pnmwOXhoY">
 	</iframe>
 	<p>	</p>
+	</div>
 				<h2>Enter your information for a chance to win a trip to Mars!</h2>
-				<div class="form-rsvp">
+				<div class="form-rsvp" id="Form">
 					<form action="" method="post">
 						<input class="rsvp" type="text" value="" placeholder="First Name">
 						<input class="rsvp" type="text" value="" placeholder="Last Name">
 						<input class="rsvp" type="text" value="" placeholder="Email Address">
 						<input class="rsvp" type="text" value="" placeholder="Phone Number">
 						<div class="form-spacer">
-							<label class="terms">Terms and Conditions</label>
+							<label class="terms"><strong>Terms and Conditions apply</label>
 						</div>
 						<div class="submit">
-							<input type="submit" value="submit">
+							<input type="submit" value="submit" style="border-radius: 2px;">
 						</div>
 					</form>
 
 				</div>
 	<footer>
-		<h4>Ericks' Explorers Foundation &copy;</h4>
+		<h4+>Ericks' Explorers Foundation &copy;</h4>
 	</footer>
 	</main>
 	</body>
