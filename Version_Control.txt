@@ -1,1 +1,3 @@
 cloned remote repository and practicing version control with it.
+
+adding new text to training branch.
